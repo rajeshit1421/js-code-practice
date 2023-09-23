@@ -14,7 +14,7 @@ let stocks = {
   Fruits: ["strawberry", "grapes", "banana", "apple"],
   liquid: ["water", "ice"],
   holder: ["cone", "cup", "stick"],
-  toppings: ["chocolate", "peanuts"],
+  toppings: ["chocolate", "peanuts","butter"],
 };
 let order = (fruit_name, call_production) => {
   console.log("Order Placed ..Kindly call production function");

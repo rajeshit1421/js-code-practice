@@ -1,2 +1,2 @@
-# js-code-practice
+# js-code-test
 Code with rajesh

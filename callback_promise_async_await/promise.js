@@ -27,7 +27,7 @@ let stocks = {
     toppings: ["chocolate", "peanuts"],
   };
 
-  
+  let is_shop_open = true; 
 
 // Create a order function which take two argument
 let order=(time,work)=>{
@@ -49,8 +49,8 @@ let order=(time,work)=>{
 order(2000,()=>console.log(`${stocks.Fruits[0]} was selected`))
 
 // step 2
-.then((data)=>{
-  console.log(data,'---------->data');
+.then(()=>{
+  
   const time = 0;
   const fun1 = (()=>{
     console.log('production has started')

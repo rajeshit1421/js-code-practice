@@ -59,8 +59,7 @@ order(2000,()=>console.log(`${stocks.Fruits[0]} was selected`))
 })
 
 // step 3
-.then(()=>{
- 
+.then(()=>{  
   return order(2000, ()=>console.log("Fruit has been chopped"))
 })
 
